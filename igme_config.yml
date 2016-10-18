@@ -1,0 +1,17 @@
+series: Basic OpenGL with GLFW
+title: GPU Simulated Particle System
+author:
+  name: David Erbelding
+  email: daviderbelding@gmail.com
+  github: https://github.com/Erbelding
+description: Use compute shaders to simulate a particle system at extreme speeds!
+language: C++
+tags:
+  - Graphics
+  - Optimization
+extra_resources:
+connections:
+  - series: Basic OpenGL with GLFW
+    title: Improved Particle System
+  - series: Basic OpenGL with GLFW
+    title: Compute Shaders
