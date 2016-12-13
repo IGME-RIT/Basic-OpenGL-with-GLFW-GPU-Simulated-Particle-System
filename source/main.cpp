@@ -54,19 +54,19 @@ void mouseMoveCallback(GLFWwindow *window, GLdouble mouseX, GLdouble mouseY)
 // Change settings when keys are pressed
 void keyPressCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
-    if (key == GLFW_KEY_R && action == GLFW_RELEASE)
+    if (key == GLFW_KEY_R)
     {
         particleSystem->m_acceleration.y += 1.f;
     }
-    if (key == GLFW_KEY_F && action == GLFW_RELEASE)
+    if (key == GLFW_KEY_F)
     {
         particleSystem->m_acceleration.y -= 1.f;
     }
-    if (key == GLFW_KEY_T && action == GLFW_RELEASE)
+    if (key == GLFW_KEY_T)
     {
         particleSystem->m_particleSize += 50;
     }
-    if (key == GLFW_KEY_G && action == GLFW_RELEASE)
+    if (key == GLFW_KEY_G)
     {
         particleSystem->m_particleSize -= 50;
     }
